@@ -1,0 +1,189 @@
+
+
+.section1{
+    text-align: center;
+    padding-top: 110px;
+    .container{
+        padding-left: 100px;
+        padding-right: 100px;
+        h1{
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 20px;
+            color: grey;
+        } 
+    }  
+}
+
+.section2{
+    .container{
+        .row{
+            .col-md-4:first-child{
+                ul{
+                    li{
+                        span{
+                            float: right;
+                            background-color: #AD1457;
+                            color: #ffffff;
+                            padding: 20px;
+                            margin: 0 0 0 20px;
+                            font-size: 25px;
+                            border-radius: 5px;
+                        }
+                        .leftText{
+                            text-align: right;
+                            width: 68%;
+                            h4{
+                                font-size: 19px;
+                                font-weight: 500;
+                                color: #444444;
+                                margin-bottom: 20px;
+                            }
+                            div{
+                                height: 2px;
+                                background-color: #AD1457;
+                                border-radius: 3px;
+                                width: 0;
+                            }
+                            p{
+                                color: #999999;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+            .col-md-4:nth-child(2){
+                   .phoneCollection{                      
+                        position: relative;
+                        width: 100%;
+                        img{
+                            margin-left: 25px;
+                            position: absolute;
+                            display: block;
+                        }
+                        img:first-child{
+                            top: 0;
+                            left: 0;
+                        }
+                        img:last-child{
+                            box-shadow: 0 0 5px rgba(0, 0, 0, 0.308);
+                            top: 70px;
+                            left: 14px;
+                        }
+                }
+            }
+            .col-md-4:last-child{
+                ul{
+                    li{
+                        span{
+                            float: left;
+                            background-color: #AD1457;
+                            color: #ffffff;
+                            padding: 20px;
+                            margin: 0 20px 0 0;
+                            font-size: 25px;
+                            border-radius: 5px;
+                        }
+                        .leftText{
+                            float: left;
+                            text-align: left;
+                            width: 68%;
+                            h4{
+                                font-size: 19px;
+                                font-weight: 500;
+                                color: #444444;
+                                margin-bottom: 20px;
+                            }
+                            div{
+                                height: 2px;
+                                background-color: #AD1457;
+                                border-radius: 3px;
+                                width: 0;
+                            }
+                            p{
+                                color: #999999;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section3{
+    .container-fluid{
+        .row{
+            .col-md-3{
+                padding: 0 42px;
+                position: relative;
+                h1{
+                    font-size: 150px;
+                    color: rgba(255,255,255,0.1);
+                    margin: 0 0 0 50px;
+                    line-height: 72%;
+                }
+                h4{
+                    color: #ffffff;
+                    font-size: 40px;
+                    font-weight: normal;
+                    margin: -8px 0 18px 0;
+                    line-height: 110%;
+                }
+                p{
+                    color: #ffffff;
+                }
+            }
+            .col-md-3:first-child,.col-md-3:nth-child(3){
+                background-color: #C62828;
+            }
+            .col-md-3:nth-child(2),.col-md-3:last-child{
+                background-color: #AD1457;
+            }
+        }
+    }
+}
+
+.section4{
+    .container{
+        .row{
+            .col-md-12{
+                h1{
+                    margin-bottom: 20px;
+                }
+                p{
+                    color: #888;
+                    font-size: 20px;
+                    margin: auto 120px;
+                }
+            }
+        }
+    }
+}
+
+.section5{
+    .container-fluid{
+        .carousel{
+            ul{
+                li{
+
+                }
+            }
+            .carousel-inner{
+                .carousel-item{
+                    .row{
+                        .col-md-3{
+                            img{
+                                height: 455px;
+                                width: 255px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
